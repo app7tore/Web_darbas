@@ -1,0 +1,52 @@
+.iphonexsection{
+  margin-top: 20px;
+}
+.iphonexheadbox img {
+  width: 100%;
+}
+.iphonexbox{
+
+}
+ul li{
+  display: inline;
+}
+#price tr{
+  border: none;
+}
+#price tr td{
+  padding: 0;
+}
+#price tr td h5{
+  font-weight: bold;
+}
+#price tr td h5, #price tr td h6{
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.linija{
+  margin-left: 38px;
+  margin-right: 38px;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  border: 0.5px solid silver;
+  box-shadow: 0 0 0.5px silver;
+}
+#footerline{
+  margin-bottom: 80px;
+  border: 0px;
+}
+#pakeistitekstax{
+  margin-bottom: 25px;
+}
+.pakeistiteksta{
+  margin-bottom: 40px;
+}
+.pakeistiteksta1{
+  margin-bottom: 50px;
+}
+.middleline{
+  text-decoration: line-through;
+}
+.redtextas{
+  color: red;
+}

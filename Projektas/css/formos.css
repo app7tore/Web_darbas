@@ -1,13 +1,30 @@
 .formbox {
   width: 100%;
-  height: 400px;
+  height: 490px;
   background-color: #FAFAFA;
   box-shadow: 0 0 5px silver;
   margin-top: 50px;
   padding-top: 5px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 #formmargin {
   margin-bottom: 0px;
+}
+#instagramas{
+  text-align: center;
+}
+#bendraukime tr{
+  border: none;
+}
+#bendraukime td{
+  padding-right: 0;
+}
+#footeris{
+  box-shadow: 0 0 5px silver;
+}
+@media screen and (max-width: 980px) {
+  div #klausimas {
+    display: none;
+  }
 }

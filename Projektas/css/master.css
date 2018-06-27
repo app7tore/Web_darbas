@@ -7,7 +7,6 @@
 }
 .nav-wrapper {
   background-color: #0A0A0A;
-  /* background-color: grey; */
 }
 [class^="section"]{
   cursor: pointer;
@@ -20,14 +19,31 @@
   background-color: rgb(245, 245, 245);
 }
 .section2_1 {
-  background-color: blue;
+  width: 100%;
+  text-align: center;
+}
+.section2_1 img {
+  width: 100%;
 }
 
 .box img {
   width: 100%;
 }
-.boxsection2_1 img {
-  width: 100%;
+.boxappeariphone{
+  text-align: center;
+}
+.boxappeariphone img {
+  width: 200px;
+}
+.boxappearipad {
+  text-align: center;
+  margin: auto;
+}
+.boxappearipad {
+  width: 400px;
+}
+
+.boxsection2_1 {
 }
 .boxsection3_1 img{
   width: 100%;
@@ -65,4 +81,15 @@ iframe {
 .specialus {
   width: 100%;
   height: 6px;
+}
+
+@media screen and (max-width: 600px) {
+  .box img {
+    display: none;
+  }
+}
+@media screen and (min-width: 600px) {
+  .boxappeariphone img, .boxappearipad img{
+    display: none;
+  }
 }
